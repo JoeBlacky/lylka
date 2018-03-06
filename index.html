@@ -1,0 +1,774 @@
+
+<!doctype html>
+<html lang="ru-RU" class="no-touch">
+  <head lang="ru">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+      <title>В люльке! Первая обитель малыша</title>
+      <link rel="shortcut icon" href="assets/img/favicon.ico">
+      <link rel="stylesheet" href="assets/css/app.css">
+      <link rel="stylesheet" href="node_modules/lightbox2/dist/css/lightbox.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic-ext" rel="stylesheet">
+  </head>
+  <body class="not-handheld">
+    <main class="page">
+        <header class="page-header">
+            <div class="content">
+                <h1 class="logo" data-scroll="page">
+                    <svg class="icon">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+                    </svg>
+                </h1>
+                <div class="user-panel">
+                    <!-- <div class="mobile-nav bordered-icon" data-toggle="main-nav">
+                        <svg class="__border">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                        </svg>
+                        <svg class="icon shopping-bag">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#shopping-bag"></use>
+                        </svg>
+                        <span class="counter">1</span>
+                    </div> -->
+                    <div class="mobile-nav bordered-icon" data-toggle="main-nav">
+                        <svg class="__border">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                        </svg>
+                        <svg class="icon nav">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="main-nav" id="main-nav">
+                    <nav class="nav">
+                        <a href="#" class="nav-item" title="Купить" data-scroll="s-product">Купить</a>
+                        <a href="#" class="nav-item" title="Подвесы и подставки" data-scroll="s-gears">Подвесы и подставки</a>
+                        <a href="#" class="nav-item" title="Качество" data-scroll="s-kit">Качество</a>
+                        <a href="#" class="nav-item" title="О нас" data-scroll="s-about">О нас</a>
+                        <a href="#" class="nav-item" title="Контакты" data-scroll="s-outro">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="section s-hero">
+            <div class="content">
+                <div class="cols __cols-2">
+                    <div class="col large-text">
+                        <p class="text __color-2 __large">Люлька из лозы и качественный набор для малыша</p>
+                        <div class="contacts cols __cols-2">
+                            <div class="col cols __cols-2 icons">
+                                <svg class="col icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#phone"></use>
+                                </svg>
+                                <svg class="col icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#telegram"></use>
+                                </svg>
+                            </div>
+                            <div class="col content">
+                                <p class="text"><a href="tel:0667775533" class="phone">0 66 777 55 33</a><a href="tel:0957775533" class="phone">095 777 55 33</a></p>
+                                <p class="text">Мы будем рады Bашему звонку</p>
+                            </div>
+                        </div>
+                        <div class="hero-product">
+                            <img src="assets/img/s-hero/bg.png" class="hero-image" alt="Люлька из лозы"/>
+                            <button type="button" class="button" title="Бесплатная доставка">Бесплатная доставка</button>
+                        </div>
+                    </div>
+                    <div class="col b-intro">
+                        <svg class="icon logo">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+                        </svg>
+                        <h1 class="title text __xlarge __color-1 __font-secondary">Люлька с набором для первого года жизни</h1>
+                        <img src="assets/img/s-hero/bg.png" class="hero-image" alt="Люлька из лозы"/>
+                        <p class="text __color-2">Мы предлагаем люльку ручной работы из натуральных материалов и набор, в который входит: качественые десткие вещи, экологические аксессуары и все необходимое для люльки</p>
+                        <form class="form" method="POST" action="forms.php">
+                            <input type="hidden" name="section" value="hero" autocomplete="false"/>
+                            <fieldset class="field">
+                                <label class="label" for="s-hero-name">Ваше имя:</label>
+                                <input type="text" id="s-hero-name" class="input-text" name="name" autocomplete="false"/>
+                            </fieldset>
+                            <fieldset class="field">
+                                <label class="label" for="s-hero-phone">Телефон:</label>
+                                <input type="text" id="s-hero-phone" class="input-text" name="phone" autocomplete="false"/>
+                            </fieldset>
+                            <fieldset class="field">
+                                <label class="label" for="s-hero-email">E-mail:</label>
+                                <input type="email" id="s-hero-email" class="input-text" name="email" autocomplete="false"/>
+                            </fieldset>
+                            <button type="submit" class="button" title="Отправить заявку">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section s-benefits __bg-color-2">
+            <div class="content">
+                <ul class="cols __cols-2 __equal-cols services-list __list">
+                    <li class="col">
+                            <div class="headline">
+                                <div class="bordered-icon">
+                                    <svg class="__border">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eco"></use>
+                                    </svg>
+                                </div>
+                                <h3 class="title __large">Эко</h3>
+                            </div>
+                            <div class="box __bordered __bg-color-1">
+                                <p class="text">Ивовая лоза - натуральный природный материал. Колыбель приготовлена без применения лаков и красок. Экологически чистая люлька гипоаллергенна и безопасная для новорожденного.</p>
+                            </div>
+                    </li>
+                    <li class="col">
+                        <div class="headline">
+                            <div class="bordered-icon">
+                                <svg class="__border">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                                </svg>
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#heart"></use>
+                                </svg>
+                            </div>
+                            <h3 class="title __large">Адаптация</h3>
+                        </div>
+                        <div class="box __bordered __bg-color-1">
+                            <p class="text">Доказано, что качание в подвесной колыбели снимает мышечное напряжение, улучшает психическое и физическое состояние, развивает вестибюлярный аппарат малыша. Происходит сбалансированная адаптация мдаженца к новым условиям жизни.</p>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="headline">
+                            <div class="bordered-icon">
+                                <svg class="__border">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                                </svg>
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#moon"></use>
+                                </svg>
+                            </div>
+                            <h3 class="title __large">Сон малыша</h3>
+                        </div>
+                        <div class="box  __bordered __bg-color-1">
+                            <p class="text">Здоровый сон малыша гарантирован в люльке, что подтверждает тысяелетняя традииця. В уютной колыбели новорожденный расслабляется и крепко спит. Выбирая люльку из лозы малыш получает комфортное гнездышко, а родители - спокойствие.</p>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="headline">
+                            <div class="bordered-icon">
+                                <svg class="__border">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                                </svg>
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#lock"></use>
+                                </svg>
+                            </div>
+                            <h3 class="title __large">Готовое решение</h3>
+                        </div>
+                        <div class="box  __bordered __bg-color-1">
+                            <p class="text">Мы позаботились о том, чтобы родители и малыш получили максимум комфорта. Вы получаете защитный чехол, матрас, нужную одежду и лучшие аксессуары для малыша. А подвесы и подставки решат проблему с размещением люльки.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section s-product __bg-color-1-1">
+            <div class="content">
+                <div class="cols product __equal-cols">
+                    <div class="product-gallery col" data-mobile-title="Базовая" data-mobile-price="2500 грн">
+                        <ul class="gallery __list slider-for">
+                            <li class="item">
+                                <a href="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/0.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/1.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="assets/img/s-product/base/2.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/2.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="gallery thumbs __list slider-nav">
+                            <li class="item">
+                                <img src="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                            <li class="item">
+                                <img src="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                            <li class="item">
+                                <img src="assets/img/s-product/base/2.jpg"class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-info col">
+                        <div class="price-box">
+                            <span class="price">2500 грн</span>
+                        </div>
+                        <h2 class="product-title title __large">Базовая</h2>
+                        <p>Люлька из лозы с минимальным набором.</p>
+                        <p>В комплект входит:</p>
+                        <ul class="__dashed __list">
+                            <li class="item">люька с ручками для переноски и крюками для подвеса</li>
+                            <li class="item">защитный чехол, матрас, плед и непромокаемая пеленка</li>
+                            <li class="item">подарок для мамы</li>
+                        </ul>
+                        <form class="form">
+                            <input type="hidden" name="product-name" value="Base"/>
+                            <input type="hidden" name="product-price" value="2500"/>
+                            <div class="actions">
+                                <button type="button" class="button" title="Посмотреть содержимое" data-toggle-kit="base">Посмотреть содержимое</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="product-kit" data-kit="base">
+                    <ul class="kit __list">
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cradle"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Люлька</h4>
+                                <p>Ивовая лоза, ручная работа</p>
+                                <p>Размер 80*45*70</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#protective-case"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Защитный чехол</h4>
+                                <p>Хлопок-бязь 100%, паралон</p>
+                                <p>Размер 210*25</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mattress"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Ортопедический матарас</h4>
+                                <p>Паралон, кокосовая стружка</p>
+                                <p>Чехол - хлопок</p>
+                                <p>Размер 75*42</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#plaid"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Плед</h4>
+                                <p>Хлопок 50%, велсофт 50%</p>
+                                <p>Размер 85*85</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nappy"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Пеленка непромокаемая</h4>
+                                <p>Махра, водонепронецаемая подкладка</p>
+                                <p>Размер 50*70</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#gift"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Подарок</h4>
+                                <p>Для мамы</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section __bg-color-1">
+            <div class="content">
+                <div class="cols product __reverse">
+                    <div class="product-gallery col" data-mobile-title="Базовая" data-mobile-price="2500 грн">
+                        <ul class="gallery __list slider-for">
+                            <li class="item">
+                                <a href="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/0.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/1.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="assets/img/s-product/base/2.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/2.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="gallery thumbs __list slider-nav">
+                            <li class="item">
+                                <img src="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                            <li class="item">
+                                <img src="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                            <li class="item">
+                                <img src="assets/img/s-product/base/2.jpg"class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-info col">
+                        <h2 class="product-title title __large">Базовая</h2>
+                        <p>Люлька из лозы с минимальным набором.</p>
+                        <p>В комплект входит:</p>
+                        <ul class="__dashed __list">
+                            <li class="item">люька с ручками для переноски и крюками для подвеса</li>
+                            <li class="item">защитный чехол, матрас, плед и непромокаемая пеленка</li>
+                            <li class="item">подарок для мамы</li>
+                        </ul>
+                        <form class="form">
+                            <input type="hidden" name="product-name" value="Базовая"/>
+                            <input type="hidden" name="product-price" value="2500"/>
+                            <div class="product-config cols __equal-cols">
+                                <div class="price-box col">
+                                    <span class="price">2500 грн</span>
+                                </div>
+                                <div class="field qty-block col __label-above">
+                                    <input type="number" value="1" id="p-base-qty" min="1" max="10" class="input-text"/>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <button type="button" class="button" title="Добавить в корзину">Добавить в корзину</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section __bg-color-2">
+            <div class="content">
+                <div class="cols product">
+                    <div class="product-gallery col" data-mobile-title="Базовая" data-mobile-price="2500 грн">
+                        <ul class="gallery __list slider-for">
+                            <li class="item">
+                                <a href="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/0.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/1.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="assets/img/s-product/base/2.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/2.jpg" alt="Люлька Базовая" />
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="gallery thumbs __list slider-nav">
+                            <li class="item">
+                                <img src="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                            <li class="item">
+                                <img src="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                            <li class="item">
+                                <img src="assets/img/s-product/base/2.jpg"class="lightbox-trigger image" alt="Люлька Базовая" />
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-info col">
+                        <h2 class="product-title title __large">Базовая</h2>
+                        <p>Люлька из лозы с минимальным набором.</p>
+                        <p>В комплект входит:</p>
+                        <ul class="__dashed __list">
+                            <li class="item">люька с ручками для переноски и крюками для подвеса</li>
+                            <li class="item">защитный чехол, матрас, плед и непромокаемая пеленка</li>
+                            <li class="item">подарок для мамы</li>
+                        </ul>
+                        <form class="form">
+                            <input type="hidden" name="product-name" value="Базовая"/>
+                            <input type="hidden" name="product-price" value="2500"/>
+                            <div class="product-config cols __equal-cols">
+                                <div class="price-box col">
+                                    <span class="price">2500 грн</span>
+                                </div>
+                                <div class="field qty-block col __label-above">
+                                    <input type="number" value="1" id="p-base-qty" min="1" max="10" class="input-text"/>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <button type="button" class="button" title="Добавить в корзину">Добавить в корзину</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section s-gears __bg-color-1-1 __titled __centered">
+            <header class="section-title">
+                <h2 class="title __bordered"><span>Подвесы и подставки для люльки</span></h2>
+            </header>
+            <div class="content">
+                <ul class="cols __cols-4 __list slick-carousel">
+                    <li class="col">
+                        <a href="assets/img/s-gears/0.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-gears" data-title="Подвес к потолку">
+                            <img src="assets/img/s-gears/0.jpg" alt="Подвес к потолку" />
+                        </a>
+                        <h2 class="title __large">Подвес к потолку</h2>
+                        <p class="text">Классический подвес. В комплекте канат, карабины, пружина, анкер. Пружина придает дополнительное вертикальное качание люльке. Лучший выбор.</p>
+                    </li>
+                    <li class="col">
+                        <a href="assets/img/s-gears/1.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-gears" data-title="Подcтавка с подвесом">
+                            <img src="assets/img/s-gears/1.jpg" alt="Подcтавка с подвесом" />
+                        </a>
+                        <h2 class="title __large">Подcтавка с подвесом</h2>
+                        <p class="text">Подставка дает возможность подвесить люльку в любом месте вашего дома. В комплекте подставка, веревка и карабины. Альтернатива подвеса к потолку.</p>
+                    </li>
+                    <li class="col">
+                        <a href="assets/img/s-gears/2.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-gears" data-title="Подставка качалка">
+                            <img src="assets/img/s-gears/2.jpg" alt="Подставка качалка" />
+                        </a>
+                        <h2 class="title __large">Подставка качалка</h2>
+                        <p class="text">Классическая подставка-качалка. Люлька качается от легкого касания, что успокаивает малыша и гарантирует крепкий сон.</p>
+                    </li>
+                    <li class="col">
+                        <a href="assets/img/s-gears/3.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-gears" data-title="Подставка на колесиках">
+                            <img src="assets/img/s-gears/3.jpg" alt="Подставка на колесиках" />
+                        </a>
+                        <h2 class="title __large">Подставка на колесиках</h2>
+                        <p class="text">Эта подставка легко передвигается по дому, чтобы малыш всегда был рядом. Два колесика имеют возможность блокировки, чтобы подставка оставалась на месте.</p>
+                    </li>
+                </ul>
+                <button type="button" class="button" title="Получить консультацию">Получить консультацию</button>
+            </div>
+        </section>
+        <section class="section s-gift __bg-color-1 __mobile-overlay __titled" style="background-image: url('assets/img/s-gift/bg.jpg')">
+            <header class="section-title">
+                <h2 class="title __bordered"><span>Люлька - отличный подарок!<span></h2>
+            </header>
+            <div class="content">
+                <div class="box __medium __bordered __bg-color-1">
+                    <p class="text">Люлька - это подарок со смыслом и заботой о будущих поколениях. Вам будет приятно осознавать важность ващего подарка для будущей жизни ребенка. Дорогие родители, бабушки, дедушки, друзья, вы делаете правильный выбор, результат которого скоро оценит сама жизнь.</p>
+                    <button type="button" class="button __secondary" title="Сделать подарок">Сделать подарок</button>
+                </div>
+            </div>
+        </section>
+        <section class="section s-kit __titled __bg-color-1 __centered">
+            <header class="section-title">
+                <h2 class="title __bordered"><span>Влюльке - качественный набор<span></h2>
+            </header>
+            <div class="content">
+                <ul class="cols __cols-4 __list kit-carousel">
+                    <li class="col">
+                        <a href="assets/img/s-set/0.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="i-s-set" data-title="Люлька">
+                            <img src="assets/img/s-set/0.jpg" alt="Люлька" />
+                        </a>
+                        <h2 class="title __large">Люлька</h2>
+                        <p class="text">Люлька практична и легка в переноске, так как имеет удобные ручки. Ивовая лоза - долговечный материал, колыбель прослужит многим поколениям.</p>
+                    </li>
+                    <li class="col">
+                        <a href="assets/img/s-set/1.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="i-s-set" data-title="Чехол">
+                            <img src="assets/img/s-set/1.jpg" alt="Чехол" />
+                        </a>
+                        <h2 class="title __large">Чехол</h2>
+                        <p class="text">Защитный чехол надежно крепится с помощью липучки, поэтому уход за чехлом очень прост.</p>
+                    </li>
+                    <li class="col">
+                        <a href="assets/img/s-set/2.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="i-s-set" data-title="Матарас">
+                            <img src="assets/img/s-set/2.jpg" alt="Матарас" />
+                        </a>
+                        <h2 class="title __large">Матарас</h2>
+                        <p class="text">Ортопедический матрас сделан из гипоаллергенной коксовой стружки и слоя поролона. Наматрасник имеет молнию, так что постирать его легко.</p>
+                    </li>
+                    <li class="col">
+                        <a href="assets/img/s-set/3.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="i-s-set" data-title="Подгузники">
+                            <img src="assets/img/s-set/3.jpg" alt="Подгузники" />
+                        </a>
+                        <h2 class="title __large">Подгузники</h2>
+                        <p class="text">Лучшие подгузники в мире - японские. У вас есть возможность проверить какие из японских подгузников самые лучшие. В комплекте по 2 подгузника GOO.N, Meries и Moony.</p>
+                    </li>
+                    <li class="col">
+                        <a href="assets/img/s-set/4.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="i-s-set" data-title="Косметика">
+                            <img src="assets/img/s-set/4.jpg" alt="Косметика" />
+                        </a>
+                        <h2 class="title __large">Косметика</h2>
+                        <p class="text">Более 60 лет компания Mustella специализируется на разработке косметических продуктов для детей. Самая эффективная, безопасная и натуральная косметика которая известна среди мам.</p>
+                    </li>
+                    <li class="col">
+                        <a href="assets/img/s-set/5.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="i-s-set" data-title="Одежда">
+                            <img src="assets/img/s-set/5.jpg" alt="Одежда" />
+                        </a>
+                        <h2 class="title __large">Одежда</h2>
+                        <p class="text">Наш партнер - украинский производитель детской одежды. ТМ "Няня" уже более 12 лет создает для малышей комфортную, натуральню и гиппоалергенную одежду.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section s-about __bg-color-2 __mobile-overlay" style="background-image: url('assets/img/s-about/bg.jpg')">
+            <div class="content">
+                <div class="box __medium __bg-color-2 __bordered">
+                    <h2 class="title __bordered"><span>О нас<span></h2>
+                    <p class="text">Наши бабушки и дедушки имели прекрасную традицию воспитывать новоржденного в люльке, к сожалению, этот обычай уходит. Изучив этот вопрос, мы решили взродить эту тысячелетнюю традицию. В ходе нашего исследования мы пришли к выводу, что особенно полезной для малыша является подвесная люлька.</p>
+                    <p class="text">Колыбель снимает мышечное напряжение и развивает вестибюлярный аппарат. А поскольку малышу комфортно в люльке, то и родителям спокойно.</p>
+                    <p class="text">Мы искренне уверены, что воспитывая малыша в люльке он вырастет психически и физически здоровым человеком.</p>
+                    <p class="text __large">Основатели проекта "в люльке"</p>
+                    <p class="text __large">Александр и Богдана Васютины</p>
+                </div>
+            </div>
+        </section>
+        <section class="section s-steps __bg-color-2 __titled">
+            <header class="section-title">
+                <h2 class="title __bordered"><span>Как получить люльку?</span></h2>
+            </header>
+            <div class="content">
+                <ul class="cols __cols-2 __equal-cols __list __enumerable">
+                    <li class="col">
+                        <div class="box counter __medium  __bordered __bg-color-1">
+                            <h3 class="title __medium">Выберите люльку</h3>
+                            <p class="text">На выбор три варианта набора:<br> Базовый, Стандартный, Максимальный</p>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="box counter __medium __bordered __bg-color-1">
+                            <h3 class="title __medium">Выберите подвес или подставку</h3>
+                            <p class="text">Дополнительно к колыбели Вы можете выбрать подвесы или подставки.</p>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="box counter __medium __bordered __bg-color-1">
+                            <h3 class="title __medium">Отправьте заявку</h3>
+                            <p class="text">Заполните форму заявки и мы перезвоним, чтобы уточнить все интересующие Вас вопросы.</p>
+                            <button type="button" title="Отправить заявку" class="button __secondary">Отправить заявку</button>
+                        </div>
+                    </li>
+                    <li class="col">
+                        <div class="box counter __medium __bordered __bg-color-1">
+                            <h3 class="title __medium">Получите посылку</h3>
+                            <p class="text">Мы доставим люльку в удобное для Вас время.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section s-additional-services __bg-color-1">
+            <div class="border __bg-color-1"></div>
+            <div class="content">
+                <ul class="cols __cols-4 __list">
+                    <li class="col box">
+                        <div class="bordered-icon icon-planet">
+                            <svg class="__border">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                            </svg>
+                            <svg class="icon">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#planet"></use>
+                            </svg>
+                        </div>
+                        <p class="text __small">Доставка по украине бесплатно<br> Доставка по всему миру</p>
+                    </li>
+                    <li class="col box">
+                        <div class="bordered-icon">
+                            <svg class="__border">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                            </svg>
+                            <svg class="icon icon-card">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#credit-card"></use>
+                            </svg>
+                        </div>
+                        <p class="text __small">Оплата наложенным платежом<br> или предоплата</p>
+                    </li>
+                    <li class="col box">
+                        <div class="bordered-icon">
+                            <svg class="__border">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                            </svg>
+                            <svg class="icon icon-pie">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#pie"></use>
+                            </svg>
+                        </div>
+                        <p class="text __small">Любую позицию можно купить<br> отдельно</p>
+                    </li>
+                    <li class="col box">
+                        <div class="bordered-icon">
+                            <svg class="__border">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                            </svg>
+                            <svg class="icon icon-bow">
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bow"></use>
+                            </svg>
+                        </div>
+                        <p class="text __small">Можно украсить колыбель<br> подарочным бантом</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section s-outro">
+            <div class="border __bg-color-2"></div>
+            <div class="content">
+                <div class="col">
+                    <svg class="icon logo">
+                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+                    </svg>
+                    <div class="socials">
+                        <p class="title __color-2 __medium">Присоединяйтесь к нам</p>
+                        <ul class="__list">
+                            <li class="item">
+                                <a href="#" target="_blank" class="bordered-icon facebook">
+                                    <svg class="__border">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" target="_blank" class="bordered-icon instagram">
+                                    <svg class="__border">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="item">
+                                <a href="#" target="_blank" class="bordered-icon vk">
+                                    <svg class="__border">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                                    </svg>
+                                    <svg class="icon">
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#vk"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <header class="contacts __color-1">
+                        <p class="title __medium">Мы с радостью ответим на Ваши вопросы</p>
+                        <p class="title __medium"><a href="tel:0667775533" class="phone">0 66 777 55 33</a><a href="tel:0957775533" class="phone">095 777 55 33</a></p>
+                        <p class="title __color-2 __medium">Или оформите заявку и мы Вам перезвоним</p>
+                    </header>
+                    <form class="form" method="POST" action="/">
+                        <fieldset class="field">
+                            <label class="label" for="s-hero-name">Ваше имя:</label>
+                            <input type="text" id="s-hero-name" class="input-text" name="s-hero-name" autocomplete="false"/>
+                        </fieldset>
+                        <fieldset class="field">
+                            <label class="label" for="s-hero-phone">Телефон:</label>
+                            <input type="text" id="s-hero-phone" class="input-text" name="s-hero-phone" autocomplete="false"/>
+                        </fieldset>
+                        <fieldset class="field">
+                            <label class="label" for="s-hero-email">E-mail:</label>
+                            <input type="email" id="s-hero-email" class="input-text" name="s-hero-email" autocomplete="false"/>
+                        </fieldset>
+                        <button type="submit" class="button" title="Отправить заявку">Отправить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <div class="page-overlay"></div>
+    </main>
+    <footer class="page-footer section __bg-color-2 __centered">
+        <div class="content">
+            <p class="title">&copy; Влюльке 2018</p>
+        </div>
+    </footer>
+    <!-- <div class="modal cart">
+        <div class="content box __bordered">
+            <div class="bordered-icon close">
+                <svg class="__border">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#circle"></use>
+                </svg>
+                <svg class="icon">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#close"></use>
+                </svg>
+            </div>
+            <div class="step __active">
+                <p class="step-title text __large">Ваш заказ</p>
+                <ul class="__list products">
+                    <li class="item product-info cols">
+                        <div class="col col-left">
+                            <img class="image product-image" src="assets/img/s-product/base/0.jpg" alt="Люлька Базовая" />
+                        </div>
+                        <div class="col col-right">
+                            <h2 class="title __medium">Базовая</h2>
+                            <ul class="__list __dashed">
+                                <li class="item">Кол-во: 1</li>
+                                <li class="item">Цена: 2500 грн</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="totals">
+                    <h2 class="title __medium">К оплате: 2500 грн</h2>
+                </div>
+                <button type="button" class="button __inverted">Продолжить</button>
+            </div>
+            <div class="step">
+                <p class="step-title  text __large">Данные для заказа</p>
+                <form class="form" method="POST" action="/">
+                    <fieldset class="field">
+                        <label class="label" for="s-hero-name">Ваше имя:</label>
+                        <input type="text" id="s-hero-name" class="input-text" name="s-hero-name" autocomplete="false"/>
+                    </fieldset>
+                    <fieldset class="field">
+                        <label class="label" for="s-hero-phone">Телефон:</label>
+                        <input type="text" id="s-hero-phone" class="input-text" name="s-hero-phone" autocomplete="false"/>
+                    </fieldset>
+                    <fieldset class="field">
+                        <label class="label" for="s-hero-email">E-mail:</label>
+                        <input type="email" id="s-hero-email" class="input-text" name="s-hero-email" autocomplete="false"/>
+                    </fieldset>
+                    <button type="submit" class="button __inverted" title="Отправить заявку">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </div> -->
+    <div class="modal" id="modal">
+        <div class="overlay" data-modal="close"></div>
+        <div class="content box __bordered">
+            <form class="form" method="POST" action="forms.php">
+                <input type="hidden" name="section" value="" autocomplete="false"/>
+                <fieldset class="field">
+                    <label class="label" for="name">Ваше имя:</label>
+                    <input type="text" id="name" class="input-text" name="name" autocomplete="false"/>
+                </fieldset>
+                <fieldset class="field">
+                    <label class="label" for="phone">Телефон:</label>
+                    <input type="text" id="phone" class="input-text" name="phone" autocomplete="false"/>
+                </fieldset>
+                <button type="submit" class="button" title="Отправить заявку">Отправить заявку</button>
+            </form>
+        </div>
+    </div>
+    <div id="svgPlaceholder"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/js/vendor/lightbox.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/dev/app.js"></script>
+    <script src="assets/js/svgdefs.js"></script>
+  </body>
+</html>
