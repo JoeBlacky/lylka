@@ -19,11 +19,13 @@
     .col {
         & {
             width: 100%;
+            max-width: 100%; //  IE Fix
             padding-bottom: 10px;
         }
 
         @include media($media__desktop) {
             width: 50%;
+            max-width: 50%; //  IE Fix
             flex-basis: 50%;
             padding-left: 40px;
             padding-right: 40px;
@@ -247,8 +249,13 @@
 
 .kit {
     & {
-        flex-wrap: wrap;
-        display: flex;
+        display: block;
+        text-align: center;
+
+        @include media($media__desktop) {
+            flex-wrap: wrap;
+            display: flex;
+        }
     }
 
     > .item {
@@ -258,14 +265,29 @@
     }
 
     .__icon {
-        flex-basis: 70px;
-        width: 70px;
-        height: 70px;
+        & {
+            display: block;
+            height: 50px;
+            padding-bottom: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @include media($media__desktop) {
+            flex-basis: 70px;
+            width: 70px;
+            height: 70px;
+        }
     }
 
     .__description {
-        flex-basis: calc(100% - 70px);
-        font-size: 14px;
+        & {
+            font-size: 14px;
+        }
+
+        @include media($media__desktop) {
+            flex-basis: calc(100% - 70px);
+        }
     }
 
     .icon {

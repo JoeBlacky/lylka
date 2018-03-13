@@ -96,7 +96,6 @@
             dots: true,
             mobileFirst: true,
             infinite: false,
-            adaptiveHeight: true,
             responsive: [
                 {
                     breakpoint: 400,
