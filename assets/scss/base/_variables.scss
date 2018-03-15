@@ -58,6 +58,10 @@ $overlay__background: rgba($black, .5);
     color: $color-white;
 }
 
+.__bg-color-3 {
+    background-color: $color-3;
+}
+
 .__font-secondary {
     font-family: $font-family__secondary;
 }

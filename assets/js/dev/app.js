@@ -148,9 +148,12 @@
         });
 
         $('[data-toggle-kit]').click(function (){
-            let val = $(this).data('toggle-kit');
+            let val = $(this).data('toggle-kit'),
+                kitBlock = $('[data-kit=' + val + ']'),
+                kitSlider = kitBlock.find('kit-carousel');
+                console.log(kitSlider);
 
-            $('[data-kit=' + val + ']').slideToggle(400);
+            kitBlock.slideToggle(400);
         });
     });
 

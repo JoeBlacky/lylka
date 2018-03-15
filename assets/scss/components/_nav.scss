@@ -276,6 +276,12 @@
     .button {
         width: 100%;
     }
+
+    .hero-image {
+        @include media($media__tablet) {
+            display: none;
+        }
+    }
 }
 
 .hero-product {
