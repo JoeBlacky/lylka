@@ -151,7 +151,6 @@
             let val = $(this).data('toggle-kit'),
                 kitBlock = $('[data-kit=' + val + ']'),
                 kitSlider = kitBlock.find('kit-carousel');
-                console.log(kitSlider);
 
             kitBlock.slideToggle(400);
         });

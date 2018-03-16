@@ -44,6 +44,13 @@ $button-secondary__color: $color-white;
     }
 }
 
+.link {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    cursor: pointer;
+}
+
 #{$noTouch} {
     .button {
         &:hover {
