@@ -170,7 +170,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section __bg-color-1-1">
+        <section class="section __bg-color-1-1 __with-shadow">
             <div class="content">
                 <div class="cols product __equal-cols">
                     <div class="product-gallery col" data-mobile-title="Базовая" data-mobile-price="2500 грн">
@@ -219,12 +219,12 @@
                             <input type="hidden" name="product-name" value="Base"/>
                             <input type="hidden" name="product-price" value="2500"/>
                             <div class="actions">
-                                <button type="button" class="button" title="Посмотреть содержимое" data-toggle-kit="base">Посмотреть содержимое</button>
+                                <button type="button" class="button" title="Посмотреть содержимое" data-toggle-kit="kit-base">Посмотреть содержимое</button>
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="product-kit" data-kit="base">
+                <div class="product-kit" data-kit="kit-base">
                     <ul class="kit __list kit-carousel">
                         <li class="item cols">
                             <div class="col __icon">
@@ -299,12 +299,18 @@
                             </div>
                         </li>
                     </ul>
+                    <button type="button" class="link" title="Свернуть" data-toggle-kit="kit-base">
+                        <svg class="icon">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#angle-up"></use>
+                        </svg>
+                        Свернуть
+                    </button>
                 </div>
             </div>
         </section>
-        <section class="section __bg-color-3">
+        <section class="section __bg-color-3 __with-shadow">
             <div class="content">
-                <div class="cols product">
+                <div class="cols product __equal-cols __reverse">
                     <div class="product-gallery col" data-mobile-title="Стандартная" data-mobile-price="2500 грн">
                         <ul class="gallery __list slider-for">
                             <li class="item">
@@ -349,12 +355,12 @@
                             <input type="hidden" name="product-name" value="Стандартная"/>
                             <input type="hidden" name="product-price" value="2500"/>
                             <div class="actions">
-                                <button type="button" class="button" title="Посмотреть содержимое" data-toggle-kit="standard">Посмотреть содержимое</button>
+                                <button type="button" class="button" title="Посмотреть содержимое" data-toggle-kit="kit-standard">Посмотреть содержимое</button>
                             </div>
                         </form>
                     </div>
                 </div>
-                <div class="product-kit" data-kit="standard">
+                <div class="product-kit" data-kit="kit-standard">
                     <ul class="kit __list kit-carousel">
                         <li class="item cols">
                             <div class="col __icon">
@@ -415,17 +421,6 @@
                                 <h4 class="title">Пеленка непромокаемая</h4>
                                 <p>Махра, водонепронецаемая подкладка</p>
                                 <p>Размер 50*70</p>
-                            </div>
-                        </li>
-                        <li class="item cols">
-                            <div class="col __icon">
-                                <svg class="icon">
-                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#gift"></use>
-                                </svg>
-                            </div>
-                            <div class="col __description">
-                                <h4 class="title">Подарок</h4>
-                                <p>Для мамы</p>
                             </div>
                         </li>
                         <li class="item cols">
@@ -497,68 +492,264 @@
                                 <p>Хлопок 100%</p>
                             </div>
                         </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#gift"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Подарок</h4>
+                                <p>Для мамы</p>
+                            </div>
+                        </li>
                     </ul>
+                    <button type="button" class="link" title="Свернуть" data-toggle-kit="kit-standard">
+                        <svg class="icon">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#angle-up"></use>
+                        </svg>
+                        Свернуть
+                    </button>
                 </div>
             </div>
         </section>
-        <section class="section __bg-color-1">
+        <section class="section __bg-color-3-1 __with-shadow">
             <div class="content">
-                <div class="cols product __reverse">
-                    <div class="product-gallery col" data-mobile-title="Базовая" data-mobile-price="2500 грн">
+                <div class="cols product __equal-cols">
+                    <div class="product-gallery col" data-mobile-title="Максимальная" data-mobile-price="3000 грн">
                         <ul class="gallery __list slider-for">
                             <li class="item">
-                                <a href="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
-                                    <img data-lazy="assets/img/s-product/base/0.jpg" alt="Люлька Базовая" />
+                                <a href="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product-max" data-title="Люлька Ма">
+                                    <img data-lazy="assets/img/s-product/base/0.jpg" alt="Люлька Максимальная" />
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
-                                    <img data-lazy="assets/img/s-product/base/1.jpg" alt="Люлька Базовая" />
+                                <a href="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product-max" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/1.jpg" alt="Люлька Максимальная" />
                                 </a>
                             </li>
                             <li class="item">
-                                <a href="assets/img/s-product/base/2.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product" data-title="Люлька Базовая">
-                                    <img data-lazy="assets/img/s-product/base/2.jpg" alt="Люлька Базовая" />
+                                <a href="assets/img/s-product/base/2.jpg" class="lightbox-trigger image" target="_blank" data-lightbox="image-product-max" data-title="Люлька Базовая">
+                                    <img data-lazy="assets/img/s-product/base/2.jpg" alt="Люлька Максимальная" />
                                 </a>
                             </li>
                         </ul>
                         <ul class="gallery thumbs __list slider-nav">
                             <li class="item">
-                                <img src="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" alt="Люлька Базовая" />
+                                <img src="assets/img/s-product/base/0.jpg" class="lightbox-trigger image" alt="Люлька Максимальная" />
                             </li>
                             <li class="item">
-                                <img src="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" alt="Люлька Базовая" />
+                                <img src="assets/img/s-product/base/1.jpg" class="lightbox-trigger image" alt="Люлька Максимальная" />
                             </li>
                             <li class="item">
-                                <img src="assets/img/s-product/base/2.jpg"class="lightbox-trigger image" alt="Люлька Базовая" />
+                                <img src="assets/img/s-product/base/2.jpg"class="lightbox-trigger image" alt="Люлька Максимальная" />
                             </li>
                         </ul>
                     </div>
                     <div class="product-info col">
-                        <h2 class="product-title title __large">Базовая</h2>
-                        <p>Люлька из лозы с минимальным набором.</p>
+                        <h2 class="product-title title __large">Максимальная</h2>
+                        <p>Люлька из лозы с расширенным набором одежды и аксессуаров.</p>
                         <p>В комплект входит:</p>
                         <ul class="__dashed __list">
                             <li class="item">люька с ручками для переноски и крюками для подвеса</li>
                             <li class="item">защитный чехол, матрас, плед и непромокаемая пеленка</li>
+                            <li class="item">удобное одеяло-конверт</li>
+                            <li class="item">набор аксессуаров и косметики</li>
+                            <li class="item">расширенный набор вещей</li>
                             <li class="item">подарок для мамы</li>
                         </ul>
                         <form class="form">
                             <input type="hidden" name="product-name" value="Базовая"/>
                             <input type="hidden" name="product-price" value="2500"/>
-                            <div class="product-config cols __equal-cols">
-                                <div class="price-box col">
-                                    <span class="price">2500 грн</span>
-                                </div>
-                                <div class="field qty-block col __label-above">
-                                    <input type="number" value="1" id="p-base-qty" min="1" max="10" class="input-text"/>
-                                </div>
-                            </div>
                             <div class="actions">
-                                <button type="button" class="button" title="Добавить в корзину">Добавить в корзину</button>
+                                <button type="button" class="button" title="Посмотреть содержимое" data-toggle-kit="kit-max">Посмотреть содержимое</button>
                             </div>
                         </form>
                     </div>
+                </div>
+                <div class="product-kit" data-kit="kit-max">
+                    <ul class="kit __list kit-carousel">
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cradle"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Люлька</h4>
+                                <p>Ивовая лоза, ручная работа</p>
+                                <p>Размер 80*45*70</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#protective-case"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Защитный чехол</h4>
+                                <p>Хлопок-бязь 100%, паралон</p>
+                                <p>Размер 210*25</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#mattress"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Ортопедический матарас</h4>
+                                <p>Паралон, кокосовая стружка</p>
+                                <p>Чехол - хлопок</p>
+                                <p>Размер 75*42</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#plaid"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Плед</h4>
+                                <p>Хлопок 50%, велсофт 50%</p>
+                                <p>Размер 85*85</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#nappy"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Пеленка непромокаемая</h4>
+                                <p>Махра, водонепронецаемая подкладка</p>
+                                <p>Размер 50*70</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#teethers"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Прорезыватель для зубов</h4>
+                                <p>Дерево, без лака и красок</p>
+                                <p>ручная работа</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#diapers"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Подгузники японские, 6шт</h4>
+                                <p>GOO.N 3.5кг, 2шт</p>
+                                <p>Moony 3.5кг, 2шт</p>
+                                <p>Merries 3.5кг, 2шт</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#bottle"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Бутылочка Philips AVENT</h4>
+                                <p>Пластик, BPA-Free</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#scissors"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Ножнички Chicco</h4>
+                                <p>Детские с колпачком</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#overalls-1"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Комбинезон №1</h4>
+                                <p>Хлопок 100%</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#overalls-2"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Комбинезон №2</h4>
+                                <p>Хлопок 100%</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#body"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Боди</h4>
+                                <p>Хлопок 100%</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#socks"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Носочки</h4>
+                                <p>Хлопок 100%</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#hat"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Шапочка</h4>
+                                <p>Хлопок 100%</p>
+                            </div>
+                        </li>
+                        <li class="item cols">
+                            <div class="col __icon">
+                                <svg class="icon">
+                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#gift"></use>
+                                </svg>
+                            </div>
+                            <div class="col __description">
+                                <h4 class="title">Подарок</h4>
+                                <p>Для мамы</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <button type="button" class="link" title="Свернуть" data-toggle-kit="kit-max">
+                        <svg class="icon">
+                            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#angle-up"></use>
+                        </svg>
+                        Свернуть
+                    </button>
                 </div>
             </div>
         </section>
