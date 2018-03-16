@@ -247,14 +247,14 @@
 .product-kit {
     display: none;
     margin-top: 40px;
-    padding: 20px 0;
-    border-top: 1px dashed $color-1;
-    border-bottom: 1px dashed $color-1;
 }
 
 .kit {
     & {
         display: block;
+        padding: 20px 0;
+        border-top: 1px dashed $color-1;
+        border-bottom: 1px dashed $color-1;
         text-align: center;
 
         @include media($media__desktop) {
@@ -307,5 +307,25 @@
 
     p {
         margin-bottom: 5px;
+    }
+}
+
+.__bg-color-3 {
+    .kit {
+        border-color: $color-3-2;
+    }
+
+    .kit .icon {
+        color: $color-3-2;
+    }
+}
+
+.__bg-color-3-1 {
+    .kit {
+        border-color: $color-3-3;
+    }
+
+    .kit .icon {
+        color: $color-3-3;
     }
 }
